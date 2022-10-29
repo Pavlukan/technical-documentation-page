@@ -44,6 +44,10 @@ header {
     border-top: 2px solid var(--borderColor);
 }
 
+#main-doc {
+    padding: 36px;
+}
+
 
 
 
