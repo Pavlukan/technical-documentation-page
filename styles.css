@@ -103,6 +103,10 @@ ul {
         margin-left: 0;
         left: 0;
     }
+
+    pre {
+        overflow: auto;
+    }
 }
 
 
