@@ -14,10 +14,17 @@ body {
     color: var(--paragraphTextColor);
 }
 
+header {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 #navbar {
     border-right: 6px solid var(--borderColor); 
     padding: 12px 24px;
 }
+
+
 
 code {
     font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
