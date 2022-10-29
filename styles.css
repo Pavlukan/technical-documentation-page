@@ -54,6 +54,10 @@ pre {
     border-radius: 8px;
 }
 
+code {
+    font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
+}
+
 li {
     margin-bottom: 12px;
 }
@@ -62,6 +66,10 @@ ul {
     margin-top: 16px;
 }
 
-code {
-    font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
+#Reference a {
+    color: var(--paragraphTextColor);
+}
+
+#Reference a:hover {
+    color: var(--linkHoverColor);
 }
