@@ -10,8 +10,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
     background-color: var(--backgroundColor);
     color: var(--paragraphTextColor);
 }
@@ -22,10 +20,16 @@ header {
 }
 
 #navbar {
+    position: fixed;
+    width: 350px;
+    height: 100%;
+    left: 0;
+    top: 0;
     border-right: 6px solid var(--borderColor); 
 }
 
 #navbar header {
+    text-align: center;
     margin: 24px;
 }
 
@@ -46,6 +50,10 @@ header {
 }
 
 #main-doc {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 360px;
     padding: 36px;
 }
 
