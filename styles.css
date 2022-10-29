@@ -3,6 +3,7 @@
     --paragraphTextColor: #FFFFFF;
     --borderColor: #4E4E4E;
     --linkHoverColor: #999999;
+    --codeColor: #0d1118;
 }
 
 body {
@@ -48,8 +49,10 @@ header {
     padding: 36px;
 }
 
-
-
+pre {
+    background-color: var(--codeColor);
+    border-radius: 8px;
+}
 
 code {
     font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New";
