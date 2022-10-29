@@ -1,6 +1,7 @@
 :root {
     --backgroundColor: #1B2430;
     --paragraphTextColor: #FFFFFF;
+    --borderColor: #4E4E4E;
 }
 
 body {
@@ -11,6 +12,11 @@ body {
     grid-template-columns: 1fr 4fr;
     background-color: var(--backgroundColor);
     color: var(--paragraphTextColor);
+}
+
+#navbar {
+    border-right: 6px solid var(--borderColor); 
+    padding: 12px 24px;
 }
 
 code {
