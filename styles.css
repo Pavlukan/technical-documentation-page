@@ -2,6 +2,7 @@
     --backgroundColor: #1B2430;
     --paragraphTextColor: #FFFFFF;
     --borderColor: #4E4E4E;
+    --linkHoverColor: #999999;
 }
 
 body {
@@ -21,8 +22,28 @@ header {
 
 #navbar {
     border-right: 6px solid var(--borderColor); 
-    padding: 12px 24px;
 }
+
+#navbar header {
+    margin: 24px;
+}
+
+.nav-link {
+    color: var(--paragraphTextColor);
+    display: block;
+    text-decoration: none;
+    padding: 16px;
+    border-bottom: 2px solid var(--borderColor);
+}
+
+.nav-link:hover {
+    color: var(--linkHoverColor);
+}
+
+.nav-link:first-of-type {
+    border-top: 2px solid var(--borderColor);
+}
+
 
 
 
