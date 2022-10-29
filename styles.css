@@ -6,6 +6,10 @@
     --codeColor: #0d1118;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -81,3 +85,5 @@ ul {
 #Reference a:hover {
     color: var(--linkHoverColor);
 }
+
+
